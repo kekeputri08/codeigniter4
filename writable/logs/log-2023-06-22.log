@@ -1,0 +1,173 @@
+CRITICAL - 2023-06-22 01:40:12 --> syntax error, unexpected end of file
+in APPPATH\Views\film\semuafilm.php on line 50.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuafilm', [], true)
+ 3 APPPATH\Controllers\Film.php(27): view('Film/semuafilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 18:10:49 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\FilmModel.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter4\\app\\Models\\FilmModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FilmModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FilmModel')
+ 4 APPPATH\Controllers\Film.php(16): spl_autoload_call('App\\Models\\FilmModel')
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 18:11:28 --> Undefined index: genre
+in APPPATH\Views\film\semuafilm.php on line 45.
+ 1 APPPATH\Views\film\semuafilm.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Views\\film\\semuafilm.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4\\app\\Views\\film\\semuafilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuafilm', [], true)
+ 5 APPPATH\Controllers\Film.php(27): view('Film/semuafilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 19:51:04 --> Invalid file: "layout/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/film', [], true)
+ 4 APPPATH\Controllers\Film.php(33): view('film/film', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 19:52:11 --> Invalid file: "layout/layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/film', [], true)
+ 4 APPPATH\Controllers\Film.php(33): view('film/film', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->film()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:23:42 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:24:26 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:28:06 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:28:09 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:28:10 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:28:10 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:28:11 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:30:24 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:30:25 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 38.
+ 1 APPPATH\Controllers\Film.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 38, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:32:05 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 39.
+ 1 APPPATH\Controllers\Film.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 39, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:32:06 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 39.
+ 1 APPPATH\Controllers\Film.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 39, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:32:06 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 39.
+ 1 APPPATH\Controllers\Film.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 39, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:32:39 --> Undefined property: App\Controllers\Film::$genre
+in APPPATH\Controllers\Film.php on line 39.
+ 1 APPPATH\Controllers\Film.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$genre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Film.php', 39, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:35:07 --> Call to a member function getAllGenre() on null
+in APPPATH\Controllers\Film.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-22 20:35:09 --> Call to a member function getAllGenre() on null
+in APPPATH\Controllers\Film.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->genre()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')

@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-09 09:15:31 --> Class 'App\Controllers\FilmModel' not found
+in APPPATH\Controllers\Film.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-06-09 09:15:41 --> Class 'App\Controllers\FilmModel' not found
+in APPPATH\Controllers\Film.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Film->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')

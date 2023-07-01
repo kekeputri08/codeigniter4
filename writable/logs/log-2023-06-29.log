@@ -1,0 +1,12 @@
+CRITICAL - 2023-06-29 15:20:59 --> Undefined variable: semuagenre
+in APPPATH\Views\film\add.php on line 29.
+ 1 APPPATH\Views\film\add.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: semuagenre', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Views\\film\\add.php', 29, [])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\codeigniter4\\app\\Views\\film\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/add', [], true)
+ 5 APPPATH\Controllers\Film.php(53): view('film/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\codeigniter4\\public\\index.php')
